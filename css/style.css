@@ -2,10 +2,28 @@
     font-size: 1.375em;
 }
 
-.todo--completed .todo--task-name {
+label.todo--completed .todo--task-name {
     text-decoration: line-through;
 }
 
-.todo--completed .todo--edit-task-btn {
+label.todo--completed .todo--edit-task-btn {
     display: none;
+}
+
+/* Modo de visualização */
+label span.todo--task-name {
+    display: inline;
+}
+
+label input.todo--task-edit-text {
+    display: none;
+}
+
+/* Modo de edição */
+label.todo--edit-mode span.todo--task-name {
+    display: none;
+}
+
+label.todo--edit-mode input.todo--task-edit-text {
+    display: inline;
 }
