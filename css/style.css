@@ -1,0 +1,11 @@
+.todo--checkbox {
+    font-size: 1.375em;
+}
+
+.todo--completed .todo--task-name {
+    text-decoration: line-through;
+}
+
+.todo--completed .todo--edit-task-btn {
+    display: none;
+}
